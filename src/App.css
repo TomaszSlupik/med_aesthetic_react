@@ -1,0 +1,16 @@
+body {
+  position: relative;
+  background-color: #eceace;
+  width: 100vw
+}
+
+html {
+  font-size: 62.5;
+}
+
+
+.color1 {color: #e3cfa6;}
+.color2 {color: #eceace;}
+.color3 {color: #d9c187;}
+.color4 {color: #7c7874;}
+.color5 {color: #e5e5e5;}

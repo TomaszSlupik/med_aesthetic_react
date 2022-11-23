@@ -1,0 +1,23 @@
+.headerFirst {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstTitle {
+    font-size: 2rem;
+    font-family: 'Marck Script', cursive;
+    padding: 0.2em 0.4em;
+    text-align: center;
+}
+
+.secondtitle {
+    font-size: 1rem;
+    color: #d9c187;
+    font-weight: bold;
+    text-align: center;
+}
