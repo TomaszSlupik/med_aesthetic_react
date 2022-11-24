@@ -1,7 +1,6 @@
 import React from 'react'
 import './Menu.css'
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Box from '@mui/material/Box';
 import ListItemText from '@mui/material/ListItemText';
 import ListItem from '@mui/material/ListItem';
@@ -9,6 +8,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import List from '@mui/material/List';
 import Drawer from '@mui/material/Drawer';
 import { Link } from 'react-router-dom'
+
 
 export default function Menu() {
 
@@ -84,11 +84,7 @@ export default function Menu() {
       ))}
           </div>
             </div>
-            
-            <div className="shopMenu">
-                  2zł
-                <ShoppingCartIcon />
-            </div>
+          
         </div>
     </div>
   )

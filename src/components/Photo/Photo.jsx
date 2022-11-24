@@ -11,18 +11,18 @@ export default function Photo() {
     },
     {
       img: '/img/two.jpg',
-      title: 'Kitchen',
+     
     },
     {
       img: '/img/three.jpg',
-      title: 'Sink',
+   
     },
     {
-      img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
+      img: '/img/wellness.jpg',
       title: 'Books',
     },
     {
-      img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+      img: '/img/chair.jpg',
       title: 'Chairs',
     },
     {

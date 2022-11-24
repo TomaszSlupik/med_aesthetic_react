@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './Services.css'
 import { Button } from '@mui/material'
 import Order from '../Order/Order'
+import {Animated} from "react-animated-css";
+
 
 export default function Services() {
 
@@ -14,7 +16,9 @@ export default function Services() {
             textTransform: 'uppercase', color: '#d9c187'
         }, 
 
-        btn: { bottom: '2%', left: '2%', backgroundColor: '#e3cfa6'}
+        btn: { bottom: '2%', left: '2%', backgroundColor: '#e3cfa6'}, 
+        
+
     }
 
     const [services, setOrder] = useState([{
@@ -44,6 +48,7 @@ export default function Services() {
 }, [])
 
 const [price, setPrice] = useState(0)
+const [nameOrder, setNameOrder] = useState('')
 
 
 const yourorder  = (el) => {
@@ -60,14 +65,27 @@ const yourorder  = (el) => {
             return el.checked === true ? parseFloat(sumAll) + parseFloat(el.price) : parseFloat (sumAll)     
         }, 0)  
     )
-    console.log(price)
+
+    setNameOrder(
+        services.reduce ((sumAllTwo, el) => {
+            return ((el.checked === true) ? 
+            sumAllTwo + el.name_service + ', '  : sumAllTwo)
+        }, '')
+    )
+    
 }
 
-console.log(price)
+
 
   return (
     <div>
-        <Order allBasket={price}/>
+        <Order allBasket={price}
+        allName={nameOrder}/>
+        <div className="headerServices">
+            <Animated className='firstTitle' animationIn="bounceInLeft" animationOut="fadeOut" isVisible = { true }>
+                    <div>Skomponuj swoje zamówienie</div>
+            </Animated>
+        </div>
         <div className="wrapperBox">
             <div className="services">
                 {
@@ -89,7 +107,8 @@ console.log(price)
                         )
                     })
                 }
-            </div>       
+                  
+            </div>    
         </div>
     </div>
   )
