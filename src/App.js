@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Menu from './components/Menu/Menu';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Services from './components/Services/Services';
+import Opinions from './components/Opinions/Opinions';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
               <Route path='/' element={<Header />} />
              <Route path='/services' element={<Services />} />
+             <Route path='/opinions' element={<Opinions/>} />
              <Route path='*' element={<Header />} />
         </Routes>
       </Router>

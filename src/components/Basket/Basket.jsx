@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Basket extends Component {
+export default function Basket() {
 
-    
+  const payYour = ['Blik', 'Karta kredytowa', 'Przelew']
 
+  
 
-  render() {
-    return (
-      <div></div>
-    )
-  }
+  return (
+    <div>
+
+    </div>
+  )
 }

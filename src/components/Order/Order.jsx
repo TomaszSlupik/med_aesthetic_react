@@ -1,6 +1,7 @@
 import React from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Order.css'
+import Basket from '../Basket/Basket';
 
 
 export default function Order(props) {
@@ -28,7 +29,9 @@ export default function Order(props) {
       <div className="cardOpen">
               <div className="firstTitle allNameColor">
               Twoje zamówienie: {props.allName}
-              </div>             
+              </div>  
+              <div>Kwota do zapłaty: {props.allBasket} zł</div>   
+              <Basket />        
       </div>
     </div>
   )

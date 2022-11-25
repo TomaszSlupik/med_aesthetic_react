@@ -40,6 +40,10 @@ export default function Menu() {
       {
         linknav: 'Usługi', 
         href: '/services'
+      }, 
+      {
+        linknav: 'Opinie', 
+        href: '/opinions'
       }
     ]
   const list = (anchor) => (

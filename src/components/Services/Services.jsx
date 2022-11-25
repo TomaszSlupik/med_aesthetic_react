@@ -32,9 +32,9 @@ export default function Services() {
         price: 100
     },
     {
-        name_service: 'testowanie',
-        img: '', 
-        price: 30
+        name_service: 'Odmładzanie laserowe',
+        img: '/img/aesthetics.jpg', 
+        price: 300
     },])
 
 //    Dodanie propsa Kliknięto/ Nie kliknięto
