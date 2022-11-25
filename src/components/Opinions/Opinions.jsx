@@ -22,7 +22,7 @@ const [users, setUsers] = useState([
 
   return (
     <div>
-        <Add users={users}/>
+        <Add users={users} setUsers={setUsers}/>
 
     <table className="table">
             <thead>
