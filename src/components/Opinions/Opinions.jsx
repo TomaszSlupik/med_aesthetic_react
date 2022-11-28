@@ -28,9 +28,9 @@ const [users, setUsers] = useState([
             <thead>
                 <tr>
                 <th scope="col">Klient</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Email</th>
+                <th scope="col">Komentarz</th>
+                <th scope="col">Opinia</th>
                 </tr>
             </thead>
             <tbody >

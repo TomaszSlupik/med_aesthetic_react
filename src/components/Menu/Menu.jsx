@@ -46,8 +46,12 @@ export default function Menu() {
         href: '/opinions'
       },  
       {
-        linknav: 'Nwesletter', 
+        linknav: 'Newsletter', 
         href: '/newsletter'
+      }, 
+      { 
+        linknav: 'Wizyta', 
+        href: '/appointment'
       }
     ]
   const list = (anchor) => (

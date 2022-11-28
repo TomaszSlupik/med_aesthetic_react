@@ -7,12 +7,12 @@ export default function Newsletter() {
         const [newsletter, setnewsletter] = useState([
 
             { 
-              tel: '667222431',
+              tel: '662321987',
               user_newslett_name: 'Zbyszek'
             },
             { 
               tel: '667222431',
-              user_newslett_name: 'Zbyszek'
+              user_newslett_name: 'Andrzej'
             }
            
         ])
