@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/med_aesthetic_react/static/css/main.0db97342.css",
+    "main.js": "/med_aesthetic_react/static/js/main.ab90043b.js",
+    "index.html": "/med_aesthetic_react/index.html",
+    "main.0db97342.css.map": "/med_aesthetic_react/static/css/main.0db97342.css.map",
+    "main.ab90043b.js.map": "/med_aesthetic_react/static/js/main.ab90043b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0db97342.css",
+    "static/js/main.ab90043b.js"
+  ]
+}
